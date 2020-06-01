@@ -1,2 +1,4 @@
+#springboot服务相关配置
 server:
+  ## 服务http端口号
   port: 8080
