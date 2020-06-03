@@ -1,4 +1,4 @@
-package org.meng.easycollect.bean;
+package org.meng.easycollect.bean.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
