@@ -10,6 +10,7 @@ import org.springframework.cache.annotation.EnableCaching;
  * @date 2020/04/01
  */
 @SpringBootApplication
+
 @EnableCaching
 public class EasyCollectApplication {
     public static void main(String[] args) {

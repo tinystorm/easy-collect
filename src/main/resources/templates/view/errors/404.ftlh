@@ -5,6 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-this is index page
+this is error page
 </body>
 </html>

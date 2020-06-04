@@ -44,3 +44,8 @@ target/generated-sources/
 /target/classes/application.yml
 target/classes/META-INF/
 target/classes/templates.view/
+src/main/resources/static/
+target/generated-test-sources/
+target/maven-archiver/
+target/maven-status/
+target/test-classes/

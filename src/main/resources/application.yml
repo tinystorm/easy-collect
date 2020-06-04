@@ -7,7 +7,6 @@ spring:
     database: 0
     host: node4
     port: 6379
-
   datasource:
     master:
       driver-class-name: com.mysql.jdbc.Driver
@@ -29,8 +28,10 @@ spring:
     cache: false
     charset: UTF-8
     check-template-location: true
-    content-type: text/xml
-    expose-request-attributes: false
-    expose-session-attributes: false
+    content-type: text/html; charset=utf-8
+    expose-request-attributes: true
+    expose-session-attributes: true
     request-context-attribute: request
-    suffix: ftl
+    suffix: .ftl
+  mvc:
+    static-path-pattern: /static/**
