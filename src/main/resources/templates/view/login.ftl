@@ -11,8 +11,15 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
-<h2>${name}</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-1" id="login-head"><p>登录</p></div>
+
+
+    </div>
+
+
+</div>
 
 </body>
 </html>

@@ -1,5 +1,6 @@
 package org.meng.easycollect.bean.entity;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -9,7 +10,8 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "user")
-public class User {
+@Data
+public class UserInfo {
     @Id
     @Column(name = "id",length = 36)
     @GeneratedValue(generator = "jpa-uuid")
