@@ -2,6 +2,7 @@ package org.meng.easycollect;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cache.annotation.EnableCaching;
 
 /**
@@ -10,8 +11,8 @@ import org.springframework.cache.annotation.EnableCaching;
  * @author Meng
  * @date 2020/04/01
  */
-@SpringBootApplication
-@EnableCaching
+@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+//@EnableCaching
 public class EasyCollectApplication {
     public static void main(String[] args) {
         SpringApplication.run(EasyCollectApplication.class);

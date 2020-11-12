@@ -1,4 +1,4 @@
-package org.meng.easycollect.bean.auth;
+package org.meng.easycollect.config.properties.auth;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
